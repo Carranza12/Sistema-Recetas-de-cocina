@@ -40,7 +40,7 @@ exports.loginUser=(req,res,next)=>{
         password:req.body.password
     }
     user.findOne({email:userData.email},(err,user)=>{
-        if(err) return res.satus(500).send('server error!');
+        if(err) return res.status(500).send('server error!');
         if(!user){
             //email no existe
             res.satus(409).send({message:'algo ha salido mal!'});
