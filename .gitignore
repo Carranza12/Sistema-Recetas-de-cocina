@@ -1,43 +1,43 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+alimentacion-personal-front/dist
+alimentacion-personal-front/tmp
+alimentacion-personal-front/out-tsc
+alimentacion-personal-front/bazel-out
 
 # Node
 alimentacion-personal-back/node_modules
 alimentacion-personal-front/node_modules
-npm-debug.log
-yarn-error.log
+alimentacion-personal-front/npm-debug.log
+alimentacion-personal-front/yarn-error.log
 
 # IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+alimentacion-personal-front/.idea/
+alimentacion-personal-front/.project
+alimentacion-personal-front/.classpath
+alimentacion-personal-front/.c9/
+alimentacion-personal-front/*.launch
+alimentacion-personal-front/.settings/
+alimentacion-personal-front/*.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+alimentacion-personal-front/.vscode/*
+alimentacion-personal-front/!.vscode/settings.json
+alimentacion-personal-front/.vscode/tasks.json
+alimentacion-personal-front/!.vscode/launch.json
+alimentacion-personal-front/!.vscode/extensions.json
+alimentacion-personal-front/.history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+alimentacion-personal-front/.angular/cache
+alimentacion-personal-front/.sass-cache/
+alimentacion-personal-front/connect.lock
+alimentacion-personal-front/coverage
+alimentacion-personal-front/libpeerconnection.log
+alimentacion-personal-fronttestem.log
+alimentacion-personal-front/typings
 
 # System files
-.DS_Store
-Thumbs.db
+alimentacion-personal-front/.DS_Store
+alimentacion-personal-front/Thumbs.db
